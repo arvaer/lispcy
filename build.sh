@@ -1,4 +1,4 @@
 #!/bin/sh
 #
 set -xe
-cc -Wall -Wextra -ansi -pedantic -o main main.c mpc.c -lm -lreadline
+cc -Wall -Wextra -ansi -pedantic -o main parser.c mpc.c -lm -lreadline
